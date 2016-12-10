@@ -1,0 +1,14 @@
+{
+    "default_hs_url": "{{ riot_hs_url }}",
+{% if riot_is_url is defined %}
+    "default_is_url": "{{ riot_is_url }}",
+{% endif %}
+    "brand": "Riot",
+{% if riot_integration_ui is defined %}
+    "integrations_ui_url": "{{ riot_integration_ui }},
+{% endif %}
+{% if riot_integration_api is defined %}
+    "integrations_rest_url": {{ "riot_integration_api" }},
+{% endif %}
+    "enableLabs": true
+}

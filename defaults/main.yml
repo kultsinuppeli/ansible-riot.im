@@ -1,0 +1,11 @@
+---
+riot_release: "v0.9.1"
+
+riot_dir: "/var/www/html"
+
+riot_hs_url: "https://matrix.org"
+
+# Optional variables
+# riot_is_url
+# riot_integration_ui
+# riot_integration_api

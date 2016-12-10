@@ -1,0 +1,11 @@
+---
+- name: Install riot.im
+  unarchive:
+    src: "https://github.com/vector-im/riot-web/releases/download/{{ riot_release }}/vector-{{ riot_release }}.tar.gz"
+    dest: "{{ riot_dir }}"
+    remote_src: yes
+
+- name: riot.im configuration
+  template:
+    src: config.json.j2
+    dest: "{{ riot_dir }}/vector-{{ riot_release }}/config.json"

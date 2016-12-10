@@ -1,0 +1,16 @@
+---
+galaxy_info:
+  author: Kalle Happonen
+  description:
+  # If the issue tracker for your role is not on github, uncomment the
+  # next line and provide a value
+  license: GPLv3
+  min_ansible_version: 1.2
+  platforms:
+  - name: Ubuntu
+    versions:
+    - all
+  categories:
+  - networking
+  - system
+  - web
